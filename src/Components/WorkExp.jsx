@@ -15,6 +15,23 @@ function WorkExp() {
       <div className='container workexp_container_subcon'>
         <div className='c0l-12 d-flex flex-wrap justify-content-center mt-4'>
           <div className='' style={{width:"9.9rem"}}>
+          </div>
+          <div className='p-4' style={{width:"49rem"}}>
+            <h2 className='text-start'>
+            Nirwana.ai
+            </h2>
+            <h5 className='text-start'>Full Stack Developer</h5>
+            <p className='text-start'>Oct 2024 - Present (Noida)</p>
+            <p className='text-start pb-1 m-0' style={{color:"gray"}}>Developed and maintained interactive AI-powered visualization tools for interior design (paints, tiles, wallpapers, panels, furniture, rugs, and curtains).</p>
+            <li style={{textAlign:"start",marginLeft:"1rem",color:"gray"}}>Built custom canvas-based tools for intuitive object placement, manipulation, and interaction.</li>
+            <li style={{textAlign:"start",marginLeft:"1rem",color:"gray"}}>Engineered an image annotation tool to mark walls and floors, generating trapezium mappings for AI visualization.</li>
+            <li style={{textAlign:"start",marginLeft:"1rem",color:"gray"}}>Developed a unified responsive frontend integrating Wall/Floor/Curtain/Furniture visualizers: https://nirwana.ai/viewspace-homepage</li>
+            <p className='text-start pb-1 m-0' style={{color:"gray"}}>Code structure highlights: modular reusable components, custom hooks, Redux combined reducers, Context API for device layouts, performance optimizations (useMemo/useCallback/lazy), and feature toggling via configuration.</p>
+          </div>
+        </div>
+
+        <div className='c0l-12 d-flex flex-wrap justify-content-center mt-4'>
+          <div className='' style={{width:"9.9rem"}}>
             <img src={paysants} className='' alt="" style={{height:"10rem",width:"7rem"}} />
           </div>
           <div className='p-4' style={{width:"49rem"}}>

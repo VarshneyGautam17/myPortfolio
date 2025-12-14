@@ -10,12 +10,12 @@ function AboutMe() {
                 </span>
                 </h2>
         <div className='container px-5 py-2'>
-            <h4>Hey there! I'm <span style={{color:"black"}}>
-                 Gautam Varshney
-                </span> , a 
-                Frontend (MERN) Developer at
-                 <span style={{color:"black"}}> Lavi Software and Technology Pvt. Ltd.
-                 </span> and recent MCA grad.</h4>
+              <h4>Hey there! I'm <span style={{color:"black"}}>
+                Gautam Varshney
+               </span> , a 
+               Full Stack Developer at
+                <span style={{color:"black"}}> Nirwana.ai
+                </span> and recent MCA grad.</h4>
                  <p>👋 Welcome to my portfolio! 👋</p>
             <p className="paragraph_aboutme">
             I'm Gautam Varshney, specialize in building full-stack web applications. With a passion for clean and efficient code, I enjoy creating seamless user experiences and solving complex challenges in the world of web development.
