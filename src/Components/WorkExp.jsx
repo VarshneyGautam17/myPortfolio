@@ -26,7 +26,7 @@ function WorkExp() {
             <li style={{textAlign:"start",marginLeft:"1rem",color:"gray"}}>Built custom canvas-based tools for intuitive object placement, manipulation, and interaction.</li>
             <li style={{textAlign:"start",marginLeft:"1rem",color:"gray"}}>Engineered an image annotation tool to mark walls and floors, generating trapezium mappings for AI visualization.</li>
             <li style={{textAlign:"start",marginLeft:"1rem",color:"gray"}}>Developed a unified responsive frontend integrating Wall/Floor/Curtain/Furniture visualizers: https://nirwana.ai/viewspace-homepage</li>
-            <p className='text-start pb-1 m-0' style={{color:"gray"}}>Code structure highlights: modular reusable components, custom hooks, Redux combined reducers, Context API for device layouts, performance optimizations (useMemo/useCallback/lazy), and feature toggling via configuration.</p>
+            <p className='text-start pb-1 m-0' style={{color:"gray"}}>Code structure highlights: modular reusable components, custom hooks, Redux combined reducers, React Query for efficient data fetching and caching, Context API for device layouts, performance optimizations (useMemo/useCallback/lazy), and feature toggling via configuration.</p>
           </div>
         </div>
 
@@ -39,7 +39,7 @@ function WorkExp() {
             Lavi Software & Technology Pvt. Ltd.
             </h2>
             <h5 className='text-start'>Frontend Developer</h5>
-            <p className='text-start'> Jan 2024-Present</p>
+            <p className='text-start'> Jan 2024 - Oct 2024</p>
             <p className='text-start pb-1 m-0' style={{color:"gray"}}>Working on <a href="https://kanakdrishtiinfo.com/" style={{textDecoration:"none"}}>kanakdrishtiinfo.com</a> and  <a href="https://paysants.in/" style={{textDecoration:"none"}}>Paysants.in</a>
             </p>
               <li style={{textAlign:"start",marginLeft:"1rem",color:"gray"}}>Created all Services Section.</li>
@@ -64,10 +64,10 @@ function WorkExp() {
             </h2>
             <h5 className='text-start'>Frontend Developer</h5>
             <p className='text-start'>June 2023-Dec 2023</p>
-            <p className='text-start pb-1 m-0' style={{color:"gray"}}>Worked on company's website</p>
-            <p className='text-start pb-1 m-0' style={{color:"gray"}}>Tools using React.js ,events, state ,hooks ,routers, forms, bootstrap.</p>
-            <p className='text-start pb-1 m-0' style={{color:"gray"}}>Formik, Yup, Axios, API Calls, Fetch API, Chart.Js , Swiper, Accordion etc.</p>
-            <p className='text-start pb-1 m-0' style={{color:"gray"}}>Also worked with Context Api and Global State-Management (redux.js).</p>
+            <p className='text-start pb-1 m-0' style={{color:"gray"}}>Worked on the company's website and frontend features.</p>
+            <p className='text-start pb-1 m-0' style={{color:"gray"}}>Technologies: React.js, hooks, routing, forms, and Bootstrap.</p>
+            <p className='text-start pb-1 m-0' style={{color:"gray"}}>Libraries: Formik, Yup, Axios, Fetch API, Chart.js, Swiper, Accordion, etc.</p>
+            <p className='text-start pb-1 m-0' style={{color:"gray"}}>State management: Context API and Redux.js for global state.</p>
             <p className='text-start pb-1 m-0' style={{color:"gray"}}>During my tenure at the company, I contributed to the enhancement of the company's website using a robust stack of tools and technologies. Leveraging React.js, I integrated essential features such as events handling, state management with hooks, routing for seamless navigation, and form handling with Formik and Yup. Additionally, I incorporated Axios and Fetch API for efficient data retrieval through API calls, while Chart.js enriched data visualization. Components like Swiper and Accordion enhanced user experience, and I implemented Context API for localized state management and global state management with Redux.js, ensuring scalability and maintainability.</p>
 
 

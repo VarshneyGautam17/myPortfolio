@@ -12,32 +12,37 @@ function AboutMe() {
         <div className='container px-5 py-2'>
               <h4>Hey there! I'm <span style={{color:"black"}}>
                 Gautam Varshney
-               </span> , a 
+               </span>, a
                Full Stack Developer at
                 <span style={{color:"black"}}> Nirwana.ai
-                </span> and recent MCA grad.</h4>
-                 <p>👋 Welcome to my portfolio! 👋</p>
+                </span> and an MCA graduate.</h4>
+                 <p>👋 Welcome to my portfolio!</p>
             <p className="paragraph_aboutme">
-            I'm Gautam Varshney, specialize in building full-stack web applications. With a passion for clean and efficient code, I enjoy creating seamless user experiences and solving complex challenges in the world of web development.
+            I'm a web developer focused on building reliable, maintainable full-stack applications. I enjoy turning UI/UX designs into responsive, accessible interfaces and solving real-world problems with clean code.
             </p>
             <p className="paragraph_aboutme">
-            🌟 Experience: With one year of experience in the field, I've honed my skills in Frontend and Web Development, contributing to diverse projects. Passionate about crafting intuitive user interfaces, I thrive on delivering impactful solutions.
+            Experience: I have worked across frontend and backend technologies, contributing to production applications and internal tools. I focus on performance, code organization, and delivering polished user experiences.
             </p>
             <p className="paragraph_aboutme">
-            🎨 Design and Development: I specialize in bringing design concepts to life by seamlessly integrating HTML,CSS,React Js and Backend Technologies.
+            Development: I transform design concepts into production-ready code using HTML, modern CSS, JavaScript (ES6+), React, and supporting backend technologies (Node.js, REST APIs, databases).
             </p>
             <p className="paragraph_aboutme">
-            ⚡ UI/UX: My journey involves creating visually appealing interfaces with Lightning Web Components and Front-End Development expertise. I thrive on implementing Semantic HTML, Cascading Style Sheets (CSS), and HTML5 for optimal UI/UX experiences.
+            UI/UX: I prioritize semantic HTML, responsive layouts, and accessibility to ensure interfaces are usable across devices and by all users.
             </p>
             <p className="paragraph_aboutme">
-            🛠️ Technical Skills: I'm well-versed in transforming UX/UI Design to HTML, harnessing Shopify for e-commerce platforms, and creating responsive designs with CSS and its other libraries. My JavaScript proficiency extends to React JS and Node Js, enabling me to craft interactive and dynamic web applications.
+            Continuous learning is important to me — I keep up with new patterns, libraries, and best practices to improve the projects I work on.
             </p>
-            <p className="paragraph_aboutme">
-            💡 Continuous Learning: The tech world is ever-evolving, and I'm committed to staying at the forefront. I eagerly embrace new challenges and emerging technologies, staying updated with industry trends.
-            </p>
-            <p className='paragraph_aboutme'>🌐 Connect with Me: I'm excited to connect with fellow professionals, share insights, and collaborate on exciting projects. Whether you want to discuss UI Development, or explore opportunities within the tech community, feel free to reach out. Let's connect, share knowledge, and embark on new opportunities together.</p>
-            <p className='paragraph_aboutme'>Please see my resume (or continue scrolling down here) if you want to learn more about my past positions.</p>
-            <p></p>
+            <div className='paragraph_aboutme'>
+              <strong>Skills</strong>
+              <ul style={{color:"white",listStyle:"none",textAlign:"left"}}>
+                <li> <strong>Languages:</strong> C/C++, Java, HTML5, CSS3, JavaScript (ES6+)</li>
+                <li> <strong>Frontend:</strong> React.js, Redux, React Query, Inertia.js, Canvas API, Bootstrap</li>
+                <li> <strong>Backend & Data:</strong> Node.js, Express, MongoDB, MySQL, REST APIs</li>
+                <li> <strong>Tools & Libraries:</strong> Axios, Formik, Yup, Chart.js, Swiper, JSON</li>
+                <li> <strong>Workflow:</strong> Git, responsive design, performance optimization, unit testing basics</li>
+              </ul>
+            </div>
+            <p className='paragraph_aboutme'>🌐 Connect with me to discuss projects, collaboration, or open roles.</p>
         </div>
     
     </div>

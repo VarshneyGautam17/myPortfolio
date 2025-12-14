@@ -6,6 +6,9 @@
     padding-top: 1rem;
 
 }
+.container{
+    text-align: left;
+}
 .paragraph_aboutme{
-    text-align: center;
+    text-align: left;
 }
