@@ -1,101 +1,248 @@
-import React from 'react';
 import "../Styles/WorkExp.css";
-import paysants from "../Images/paysants.png"
-import milestone from "../Images/milestone.jpeg"
-import indsac from "../Images/indsac.jpg"
+import paysants from "../Images/paysants.png";
+import milestone from "../Images/milestone.jpeg";
+import indsac from "../Images/indsac.jpg";
+import nirwana from "../Images/nirwana.png";
 
 function WorkExp() {
   return (
-    <div id='work' className='workexp_container pt-5'>
-      <h2 className='text-start mb-4 ms-2'>
-                <span className='p-2' style={{borderRight:"5px solid black",borderBottom:"5px solid black",borderRadius:"2rem 2rem 0rem 2rem",color:"white",boxShadow:"4px 4px 4px white"}}>
-                Work Experience
-                </span>
-                </h2>
-      <div className='container workexp_container_subcon'>
-        <div className='c0l-12 d-flex flex-wrap justify-content-center mt-4'>
-          <div className='' style={{width:"9.9rem"}}>
+    <div id="work" className="workexp_container pt-5">
+      <h2 className="text-start mb-4 ms-2">
+        <span
+          className="p-2"
+          style={{
+            borderRight: "5px solid black",
+            borderBottom: "5px solid black",
+            borderRadius: "2rem 2rem 0rem 2rem",
+            color: "white",
+            boxShadow: "4px 4px 4px white",
+          }}
+        >
+          Work Experience
+        </span>
+      </h2>
+      <div className="container workexp_container_subcon">
+        <div className="col-12 d-flex flex-wrap justify-content-center mt-4">
+          <div className="" style={{ width: "9.9rem", height: "auto" }}>
+            <a href="https://nirwana.ai/">
+              <img
+                src={nirwana}
+                className=""
+                alt=""
+                style={{
+                  height: "2.3rem",
+                  width: "11rem",
+                  backgroundColor: "black",
+                  marginTop: "30%",
+                  marginLeft: "-2.5rem",
+                  padding: "5px",
+                  borderRadius: "10px",
+                  cursor: "pointer",
+                }}
+              />
+            </a>
           </div>
-          <div className='p-4' style={{width:"49rem"}}>
-            <h2 className='text-start'>
-            Nirwana.ai
-            </h2>
-            <h5 className='text-start'>Full Stack Developer</h5>
-            <p className='text-start'>Oct 2024 - Present (Noida)</p>
-            <p className='text-start pb-1 m-0' style={{color:"gray"}}>Developed and maintained interactive AI-powered visualization tools for interior design (paints, tiles, wallpapers, panels, furniture, rugs, and curtains).</p>
-            <li style={{textAlign:"start",marginLeft:"1rem",color:"gray"}}>Built custom canvas-based tools for intuitive object placement, manipulation, and interaction.</li>
-            <li style={{textAlign:"start",marginLeft:"1rem",color:"gray"}}>Engineered an image annotation tool to mark walls and floors, generating trapezium mappings for AI visualization.</li>
-            <li style={{textAlign:"start",marginLeft:"1rem",color:"gray"}}>Developed a unified responsive frontend integrating Wall/Floor/Curtain/Furniture visualizers: https://nirwana.ai/viewspace-homepage</li>
-            <p className='text-start pb-1 m-0' style={{color:"gray"}}>Code structure highlights: modular reusable components, custom hooks, Redux combined reducers, React Query for efficient data fetching and caching, Context API for device layouts, performance optimizations (useMemo/useCallback/lazy), and feature toggling via configuration.</p>
-          </div>
-        </div>
-
-        <div className='c0l-12 d-flex flex-wrap justify-content-center mt-4'>
-          <div className='' style={{width:"9.9rem"}}>
-            <img src={paysants} className='' alt="" style={{height:"10rem",width:"7rem"}} />
-          </div>
-          <div className='p-4' style={{width:"49rem"}}>
-            <h2 className='text-start'>
-            Lavi Software & Technology Pvt. Ltd.
-            </h2>
-            <h5 className='text-start'>Frontend Developer</h5>
-            <p className='text-start'> Jan 2024 - Oct 2024</p>
-            <p className='text-start pb-1 m-0' style={{color:"gray"}}>Working on <a href="https://kanakdrishtiinfo.com/" style={{textDecoration:"none"}}>kanakdrishtiinfo.com</a> and  <a href="https://paysants.in/" style={{textDecoration:"none"}}>Paysants.in</a>
+          <div className="p-4" style={{ width: "49rem" }}>
+            <h2 className="text-start">Nirwana.ai</h2>
+            <h5 className="text-start">Full Stack Developer</h5>
+            <p className="text-start">Oct 2024 - Present (Noida)</p>
+            <p className="text-start pb-1 m-0" style={{ color: "gray" }}>
+              Developed and maintained interactive AI-powered visualization
+              tools for interior design (paints, tiles, wallpapers, panels,
+              furniture, rugs, and curtains).
             </p>
-              <li style={{textAlign:"start",marginLeft:"1rem",color:"gray"}}>Created all Services Section.</li>
-              <li style={{textAlign:"start",marginLeft:"1rem",color:"gray"}}>Created all Packages Section etc.</li>
-              <li style={{textAlign:"start",marginLeft:"1rem",color:"gray"}}>Working on Html, Css, Javascript to build all the above things.</li>
-            <p className='text-start pb-1 m-0' style={{color:"gray"}}>Fully Created   <a href="https://mytaxsavvy.com/" style={{textDecoration:"none"}}>mytaxsavvy.com</a> a Website for Tax consultancy and ITR filing. 
+            <li
+              style={{ textAlign: "start", marginLeft: "1rem", color: "gray" }}
+            >
+              Built custom canvas-based tools for intuitive object placement,
+              manipulation, and interaction.
+            </li>
+            <li
+              style={{ textAlign: "start", marginLeft: "1rem", color: "gray" }}
+            >
+              Engineered an image annotation tool to mark walls and floors,
+              generating trapezium mappings for AI visualization.
+            </li>
+            <li
+              style={{ textAlign: "start", marginLeft: "1rem", color: "gray" }}
+            >
+              Developed a unified responsive frontend integrating
+              Wall/Floor/Curtain/Furniture visualizers:
+              https://nirwana.ai/viewspace-homepage
+            </li>
+            <p className="text-start pb-1 m-0" style={{ color: "gray" }}>
+              Code structure highlights: modular reusable components, custom
+              hooks, Redux combined reducers, React Query for efficient data
+              fetching and caching, Context API for device layouts, performance
+              optimizations (useMemo/useCallback/lazy), and feature toggling via
+              configuration.
             </p>
-            <p className='text-start pb-1 m-0' style={{color:"gray"}}>Worked on Frontend of E-commerce Website <a href="https://swayamenterprises.com/" style={{textDecoration:"none"}}>swayamenterprises.com</a> . 
-            </p> 
-            <p className='text-start pb-1 m-0' style={{color:"gray"}}>Worked on Frontend of E-commerce Website <a href="https://clawsarmwrestling.com/" style={{textDecoration:"none"}}>clawsarmwrestling.com</a> . 
-            </p> 
-
-          </div>
-        </div>
-        <div className='c0l-12 d-flex flex-wrap justify-content-center mt-4'>
-          <div className='' style={{width:"9.9rem"}}>
-            <img src={indsac} className='mt-5' alt="" style={{height:"3rem",width:"7rem"}} />
-          </div>
-          <div className='p-4' style={{width:"49rem"}}>
-            <h2 className='text-start'>
-            Indsac Softtech Private Limited
-            </h2>
-            <h5 className='text-start'>Frontend Developer</h5>
-            <p className='text-start'>June 2023-Dec 2023</p>
-            <p className='text-start pb-1 m-0' style={{color:"gray"}}>Worked on the company's website and frontend features.</p>
-            <p className='text-start pb-1 m-0' style={{color:"gray"}}>Technologies: React.js, hooks, routing, forms, and Bootstrap.</p>
-            <p className='text-start pb-1 m-0' style={{color:"gray"}}>Libraries: Formik, Yup, Axios, Fetch API, Chart.js, Swiper, Accordion, etc.</p>
-            <p className='text-start pb-1 m-0' style={{color:"gray"}}>State management: Context API and Redux.js for global state.</p>
-            <p className='text-start pb-1 m-0' style={{color:"gray"}}>During my tenure at the company, I contributed to the enhancement of the company's website using a robust stack of tools and technologies. Leveraging React.js, I integrated essential features such as events handling, state management with hooks, routing for seamless navigation, and form handling with Formik and Yup. Additionally, I incorporated Axios and Fetch API for efficient data retrieval through API calls, while Chart.js enriched data visualization. Components like Swiper and Accordion enhanced user experience, and I implemented Context API for localized state management and global state management with Redux.js, ensuring scalability and maintainability.</p>
-
-
-
-          </div>
-        </div>
-        <div className='c0l-12 d-flex flex-wrap justify-content-center mt-4'>
-          <div className='' style={{width:"9.9rem"}}>
-            <img src={milestone} className='' alt="" style={{height:"10rem",width:"7rem"}} />
-          </div>
-          <div className='p-4' style={{width:"49rem"}}>
-            <h2 className='text-start'>
-            MileStoneOS Technologies
-            </h2>
-            <h5 className='text-start'>Frontend Developer Intern</h5>
-            <p className='text-start'>Jan 2023-Mar 2023</p>
-            <p className='text-start pb-1 m-0' style={{color:"gray"}}>Created Three Websites with HTML, CSS, JavaScript and React (All the sites are working properly with front-end as well as back-end)</p>
-            <p className='text-start pb-1 m-0' style={{color:"gray"}}>1-Food Ordering Website :- It Is created with HTML,CSS,JS with interactive UI which take orders as well as create cart for the specific order and user can easily updated cart as per his requirement. It has 4 webpages with responsive Navbar and other interactive elements.</p>
-            <p className='text-start pb-1 m-0' style={{color:"gray"}}>2- Billing System :- It is the website having three interactive webpages with other responsive elements. It is design to create and update Bills.</p>
-            <p className='text-start pb-1 m-0' style={{color:"gray"}}>3- Website for an Industry :- A website with HTML, CSS, JS, Bootstrap designed with Navbar, Carousel, RTL, Contact Info etc.</p>
-            <p className='text-start pb-1 m-0' style={{color:"gray"}}>During my internship, I developed many distinct websites showcasing proficiency in HTML, CSS, JavaScript, and React. The Food Ordering Website offers a seamless user experience with interactive UI elements for order placement and cart management. The Billing System facilitates bill creation and updates across three webpages. Additionally, I crafted a professional-grade Industry Website featuring a responsive layout with essential components like Navbar, Carousel, and Contact Info, showcasing my versatility in web development.</p>
           </div>
         </div>
 
+        <div className="c0l-12 d-flex flex-wrap justify-content-center mt-4">
+          <div className="" style={{ width: "9.9rem" }}>
+            <img
+              src={paysants}
+              className=""
+              alt=""
+              style={{ height: "10rem", width: "7rem" }}
+            />
+          </div>
+          <div className="p-4" style={{ width: "49rem" }}>
+            <h2 className="text-start">Lavi Software & Technology Pvt. Ltd.</h2>
+            <h5 className="text-start">Frontend Developer</h5>
+            <p className="text-start"> Jan 2024 - Oct 2024</p>
+            <p className="text-start pb-1 m-0" style={{ color: "gray" }}>
+              Working on{" "}
+              <a
+                href="https://kanakdrishtiinfo.com/"
+                style={{ textDecoration: "none" }}
+              >
+                kanakdrishtiinfo.com
+              </a>{" "}
+              and{" "}
+              <a href="https://paysants.in/" style={{ textDecoration: "none" }}>
+                Paysants.in
+              </a>
+            </p>
+            <li
+              style={{ textAlign: "start", marginLeft: "1rem", color: "gray" }}
+            >
+              Created all Services Section.
+            </li>
+            <li
+              style={{ textAlign: "start", marginLeft: "1rem", color: "gray" }}
+            >
+              Created all Packages Section etc.
+            </li>
+            <li
+              style={{ textAlign: "start", marginLeft: "1rem", color: "gray" }}
+            >
+              Working on Html, Css, Javascript to build all the above things.
+            </li>
+            <p className="text-start pb-1 m-0" style={{ color: "gray" }}>
+              Fully Created{" "}
+              <a
+                href="https://mytaxsavvy.com/"
+                style={{ textDecoration: "none" }}
+              >
+                mytaxsavvy.com
+              </a>{" "}
+              a Website for Tax consultancy and ITR filing.
+            </p>
+            <p className="text-start pb-1 m-0" style={{ color: "gray" }}>
+              Worked on Frontend of E-commerce Website{" "}
+              <a
+                href="https://swayamenterprises.com/"
+                style={{ textDecoration: "none" }}
+              >
+                swayamenterprises.com
+              </a>{" "}
+              .
+            </p>
+            <p className="text-start pb-1 m-0" style={{ color: "gray" }}>
+              Worked on Frontend of E-commerce Website{" "}
+              <a
+                href="https://clawsarmwrestling.com/"
+                style={{ textDecoration: "none" }}
+              >
+                clawsarmwrestling.com
+              </a>{" "}
+              .
+            </p>
+          </div>
+        </div>
+        <div className="c0l-12 d-flex flex-wrap justify-content-center mt-4">
+          <div className="" style={{ width: "9.9rem" }}>
+            <img
+              src={indsac}
+              className="mt-5"
+              alt=""
+              style={{ height: "3rem", width: "7rem" }}
+            />
+          </div>
+          <div className="p-4" style={{ width: "49rem" }}>
+            <h2 className="text-start">Indsac Softtech Private Limited</h2>
+            <h5 className="text-start">Frontend Developer</h5>
+            <p className="text-start">June 2023-Dec 2023</p>
+            <p className="text-start pb-1 m-0" style={{ color: "gray" }}>
+              Worked on the company's website and frontend features.
+            </p>
+            <p className="text-start pb-1 m-0" style={{ color: "gray" }}>
+              Technologies: React.js, hooks, routing, forms, and Bootstrap.
+            </p>
+            <p className="text-start pb-1 m-0" style={{ color: "gray" }}>
+              Libraries: Formik, Yup, Axios, Fetch API, Chart.js, Swiper,
+              Accordion, etc.
+            </p>
+            <p className="text-start pb-1 m-0" style={{ color: "gray" }}>
+              State management: Context API and Redux.js for global state.
+            </p>
+            <p className="text-start pb-1 m-0" style={{ color: "gray" }}>
+              During my tenure at the company, I contributed to the enhancement
+              of the company's website using a robust stack of tools and
+              technologies. Leveraging React.js, I integrated essential features
+              such as events handling, state management with hooks, routing for
+              seamless navigation, and form handling with Formik and Yup.
+              Additionally, I incorporated Axios and Fetch API for efficient
+              data retrieval through API calls, while Chart.js enriched data
+              visualization. Components like Swiper and Accordion enhanced user
+              experience, and I implemented Context API for localized state
+              management and global state management with Redux.js, ensuring
+              scalability and maintainability.
+            </p>
+          </div>
+        </div>
+        <div className="c0l-12 d-flex flex-wrap justify-content-center mt-4">
+          <div className="" style={{ width: "9.9rem" }}>
+            <img
+              src={milestone}
+              className=""
+              alt=""
+              style={{ height: "10rem", width: "7rem" }}
+            />
+          </div>
+          <div className="p-4" style={{ width: "49rem" }}>
+            <h2 className="text-start">MileStoneOS Technologies</h2>
+            <h5 className="text-start">Frontend Developer Intern</h5>
+            <p className="text-start">Jan 2023-Mar 2023</p>
+            <p className="text-start pb-1 m-0" style={{ color: "gray" }}>
+              Created Three Websites with HTML, CSS, JavaScript and React (All
+              the sites are working properly with front-end as well as back-end)
+            </p>
+            <p className="text-start pb-1 m-0" style={{ color: "gray" }}>
+              1-Food Ordering Website :- It Is created with HTML,CSS,JS with
+              interactive UI which take orders as well as create cart for the
+              specific order and user can easily updated cart as per his
+              requirement. It has 4 webpages with responsive Navbar and other
+              interactive elements.
+            </p>
+            <p className="text-start pb-1 m-0" style={{ color: "gray" }}>
+              2- Billing System :- It is the website having three interactive
+              webpages with other responsive elements. It is design to create
+              and update Bills.
+            </p>
+            <p className="text-start pb-1 m-0" style={{ color: "gray" }}>
+              3- Website for an Industry :- A website with HTML, CSS, JS,
+              Bootstrap designed with Navbar, Carousel, RTL, Contact Info etc.
+            </p>
+            <p className="text-start pb-1 m-0" style={{ color: "gray" }}>
+              During my internship, I developed many distinct websites
+              showcasing proficiency in HTML, CSS, JavaScript, and React. The
+              Food Ordering Website offers a seamless user experience with
+              interactive UI elements for order placement and cart management.
+              The Billing System facilitates bill creation and updates across
+              three webpages. Additionally, I crafted a professional-grade
+              Industry Website featuring a responsive layout with essential
+              components like Navbar, Carousel, and Contact Info, showcasing my
+              versatility in web development.
+            </p>
+          </div>
+        </div>
       </div>
-
     </div>
-  )
+  );
 }
 
-export default WorkExp
+export default WorkExp;
